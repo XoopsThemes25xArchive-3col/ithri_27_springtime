@@ -1,0 +1,224 @@
+table {width: 100%;}
+table td {padding: 0; border-width: 0; vertical-align: top; }
+
+a, a:link {
+	color: #978D5F;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline; color:#006600;
+}
+
+h1 {font-size:1.4em;}
+h2 {font-size:1.3em;}
+h3 {font-size:1.2em;}
+h4 {font-size:1.1em;}
+h5 {font-size:1em;}
+ul { margin: 2px; padding: 2px; list-style: disc inside; text-align: left;}
+ol { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; }
+
+
+caption {font-weight: bold;}
+th, thead {background:  #006600;  padding : 2px; color: #fff; vertical-align : middle;}
+
+.outer {}
+
+
+.errorMsg,.confirmMsg, .resultMsg  { padding: .8em; text-align:center; margin-bottom: 1em; border: 2px solid #ddd;}
+.errorMsg  { background-color: #FBE3E4; color: #D12F19; border-color: #FBC2C4; }
+.confirmMsg { background-color: #FFF6BF; color: #817134; border-color: #FFD324; }
+.resultMsg { background-color: #E6EFC2; color: #529214; border-color: #C6D880; }
+.errorMsg a { background-color: transparent; color: #D12F19; }
+.confirmMsg a { background-color: transparent; color: #817134; }
+.successMsg a { background-color: transparent; color: #529214; }
+
+.xoopsCode { 
+	background: #fff; 
+	border: 1px inset #120A04080; font-family: "Courier New",Courier,monospace; 
+	padding: 0 6px 6px 6px; height: 200px; overflow: auto; font-size:.9em;}
+.xoopsQuote {
+	margin: 6px;
+	padding: 6px 6px 6px 40px;  
+	font-style: normal;
+	border: 1px solid #639ACC;
+	border-left: 2px solid #639ACC; 
+}
+
+
+/* --------- Forums and Comments --------- */
+.comTitle {
+	margin-bottom: 2px;
+	font-weight: bold;  
+	
+}
+.comText {padding: 2px;}
+.comUserStat {
+	margin: 2px; 
+	background-color: #fff;
+	padding: 2px; 
+	font-size: .8em;
+	font-weight: ;
+	border: 1px solid #ccc;   
+}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {
+	margin-left: 2px;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: .8em;
+}
+.comUserRank {margin: 2px;}
+.comUserRankText {
+	font-size: .9em;
+	font-weight: bold;
+}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {
+	font-weight: normal;
+	font-style: normal;
+	font-size: .9em;
+}  
+.comDateCaption {
+	font-weight: bold;
+	font-style: normal;
+	font-size: .8em;
+}
+.signature {
+	font-size: .8em;
+	font-style: normal;
+}
+
+
+
+
+.outer {
+	padding: 2px;
+	
+}
+.head {
+ 	padding-left:8px;
+	background: #006600;
+    font-weight: bold;
+    padding: 5px;
+    color:#fff;
+	text-align:left;
+}
+
+.even {
+   
+	padding: 5px;
+	color:#978D5F;
+}
+.odd {
+    
+	padding: 5px;
+	color:#978D5F;
+}
+.foot {
+	background-color: #f4f4f4;
+	padding: 5px;
+	font-weight: bold;
+	color:#884C1A;
+}
+tr.even td {
+	background-color: #FEFEF2;
+	padding: 5px;
+
+}
+tr.odd td {
+	background-color:#EEF3E2;
+	padding: 5px;
+}
+
+
+
+
+
+/* --------- Articles --------- */
+.item {
+	margin-top: 20px;
+	font-size:1.1em;
+	border-bottom: 2px solid  #415539;
+}
+.itemHead {
+	height: 20px;
+	background:#EEF3E2;   	
+	padding: 4px;
+	
+}
+.itemInfo { 
+	background-color: #fff;
+	padding: 3px;
+	text-align:right; 
+}
+.itemTitle {
+	 padding-left:20px;
+}
+
+.itemTitle a {
+	color: #000000;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:1.1em;
+	font-weight: bold;
+	
+    	
+
+}
+.itemPoster {
+	font-size: .9em;
+	font-style: normal;
+	
+}
+.itemPostDate {
+	font-size: .9em;
+	font-style: normal;
+}
+.itemStats {
+	font-size: .9em;
+	font-style: normal; color:#CD3333;
+}
+.itemBody {
+padding-left: 3px;
+}
+.itemText {
+	color:#120A04;
+	line-height:1.5em;
+	padding:10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background:#fff;
+	
+}
+.itemFoot {  
+	margin: 2px 0px 0px 10px; 
+	color: #597eb2 !important; 
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:center;
+    font-weight: bold; 	
+}
+.itemAdminLink {
+    font-size: .9em;  color:#CD3333;
+   
+	
+}
+.itemPermaLink {
+    font-size: .9em; 
+	margin: 							0 20px 10px 0; 
+	padding: 						0 20px; 
+	padding-bottom:4px;	
+	color:     #CD3333;
+}
+
+
+/*======= Tinymce background textarea ========*/
+body.mceContentBody {
+    margin:                 0;
+    padding:                0;
+    background-color:       #fff;
+    background-image:       none;
+    color:                  #120A04;
+}

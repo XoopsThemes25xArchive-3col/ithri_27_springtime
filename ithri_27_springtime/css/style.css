@@ -1,0 +1,374 @@
+
+@import url("content.css");
+
+
+html {
+    background:  #022A02;
+    }
+
+body {
+	font-family: Trebuchet MS,Arial,Helvetica,sans-serif;
+	font-size: 12px;   
+	line-height: normal;
+	margin: 0 auto;
+	
+}
+
+div.wrapper { 
+
+    width:1000px; 
+    margin:0 auto; 
+    padding:0; 
+	background-color: #fff;
+} 
+
+
+#xo-header {
+    height:                250px;
+    background:            url(../img/header.jpg) ;
+    width: 1000px;
+}
+#banner {
+	float:right;
+	padding-right:90px;
+	padding-top: 30px;
+	width:468px;
+	height:60px;
+	
+}
+
+
+/* --- Logo --- */
+#xo-header img.logo {
+	float:	left; 
+	padding-left:40px;
+	padding-top:40px;
+} 
+
+#top{
+	background: ;
+	padding-left:10px;
+} 
+
+#topmenu{
+	float:right;
+	padding-right:100px;
+	
+} 
+
+
+
+#leftcolumn {
+    padding: 2px;
+	width : 160px;
+	padding-top:4px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+	
+	
+
+#leftcolumn .blockTitle {padding: 3px; 
+    background: url(../img/menu.jpg) repeat-x ; 
+	color:#FFD700; 
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;}
+	
+#leftcolumn .blockContent {padding: 3px; line-height: 1.2em;}
+
+
+#centercolumn {font-size: 1em; padding: 0 0 0 1px;}
+
+
+#centerCcolumn, #bottomCcolumn {padding: 0 3px 1px 3px;}
+#centerCcolumn .blockTitle, #bottomCcolumn .blockTitle {
+	padding: 3px; 
+	color:#006600; 
+	font-weight: bold; 
+	margin-top: 0; 
+	margin-right: 0;  
+	margin-left: 0; 
+	font-size:1.3em;
+	
+}
+#centerCcolumn .blockContent, #bottomCcolumn .blockContent { 
+	padding: 3px; 
+	margin-right: 0;  
+	margin-left: 0; 
+	margin-bottom: 2px; 
+	line-height: 1.2em;
+}
+
+
+
+#centerLcolumn, #bottomLcolumn, #centerRcolumn, #bottomRcolumn {
+         padding: 0 3px 0 0;
+}
+#centerLcolumn .blockTitle , #bottomLcolumn .blockTitle, #centerRcolumn .blockTitle, #bottomRcolumn .blockTitle {
+        padding: 3px; 
+		color:#006600; 
+		font-weight: bold; 
+		margin-top: 0;
+		
+}
+#centerLcolumn .blockContent, #centerRcolumn .blockContent, #bottomLcolumn .blockContent, #bottomRcolumn .blockContent {
+         padding: 3px; 
+		 margin-left: 2px; 
+		 margin-right: 3px; 
+		 margin-bottom: 2px; 
+		 line-height: 1.2em;
+}
+
+#content {text-align: left; padding: 8px;}
+
+
+#rightcolumn {
+    padding: 2px;
+	width : 160px;
+	padding-top:4px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+	
+
+#rightcolumn .blockTitle {
+    padding: 3px;
+	color: #FFD700;
+   	background: url(../img/menu.jpg) repeat-x ; 
+    font-size: 1.3em;
+    text-align: center;
+	font-weight: bold; }
+#rightcolumn .blockContent {padding: 3px; line-height: 1.2em;}
+
+
+
+#footerbar { 
+    font-size:1.1em; 
+	height : 42px; 
+	color:#006600;
+	font-weight: bold;
+     
+	
+	}
+#footerbar td { vertical-align : top; text-align:center;border-top: 2px solid #44583A; }
+
+
+/* block main menu */
+#mainmenu {	font-size: 1.1em;}
+#mainmenu a {
+  display: block;
+  margin: 0;
+  padding: 8px 4px 4px 16px;
+  font-weight:		bold;
+  color:#454545;
+  border-bottom: 1px dashed #825252;
+  
+  
+}
+#mainmenu a:hover { background: #90A884;  color:#8B2323;}
+#mainmenu a.menuTop {}
+#mainmenu a.menuMain {}
+#mainmenu a.menuSub {
+  padding-left: 25px;
+  color:#458B74;
+  font-size: .9em;
+}
+#mainmenu a.menuSub:hover { background-color: #90A884; border-bottom: 1px dashed #825252;}
+
+/* block user menu */
+#usermenu {	font-size: .9em; }
+#usermenu a {
+  display: block;
+  margin: 0;
+  padding: 4px 4px 4px 16px;
+  color:#454545;
+  font-weight:		bold;
+  
+}
+#usermenu  :hover {
+  background: #90A884;
+  
+}
+
+
+
+
+
+/*============== Styles for system_siteclosed.html  (override system module) =================*/
+#xo-siteclose {
+    width:                  400px;
+    margin:                 100px auto;
+    background-color:       #e2e2e2;
+    padding:                30px;
+    color:                  #120A04;
+    font-size:              1.2em;
+    font-weight:            bold;
+    text-align:             center;
+    border:                 1px solid #9A561E;
+}
+#xo-userbar_siteclosed {
+    display:                block;
+    background:             #2A75C5 ;
+    padding-top:            8px;
+    padding-right:          1em;
+    color:                  #fff;
+    font-size :             .8em;
+    text-align :            center;
+}
+#xo-userbar_siteclosed form {
+    display:                inline;
+    padding:                0;
+}
+
+#xo-userbar_siteclosed input, #xo-userbar_siteclosed button {
+    width:                  100px;
+    background-color:       transparent;
+    color:                  #fff;
+    font-size :             .9em;
+    margin:                 2px;
+}
+#xo-userbar_siteclosed input:hover {}
+
+
+
+/*============== Styles for system_redirect.html (override system module) =================*/
+#xo-redirect {
+    width:                  780px;
+    margin:                 50px auto;
+    padding:                1em;
+    font-weight:            bold;
+    text-align:             center;
+}
+#xo-redirect .notreload {
+    height:                 28px;
+    background-color:       inherit;
+    padding-top:            2px;
+    color:                  #120A04;
+}
+#xo-redirect .notreload a {
+    background-color:       inherit;
+    color:                  #ff0000;
+    font-weight:            bold;
+    text-decoration:        none;
+}
+#xo-redirect .message {
+    min-height:             60px;
+    background-color:       #f3f3f3;
+    padding:                1em;
+    color:                  #9A561E;
+    font-size:              1.2em;
+    text-align:             center;
+    border:                 1px solid #9A561E;
+}
+#xo-redirect .message img{
+    padding:                1em;
+}
+
+
+
+
+ /* --------- Forms --------- */
+button, input[type="submit"], input[type="button"] { 
+background:#120A04;
+ padding : 4px;  color : #fff;  font-size : .8em;  font-weight : bold; border:none;   
+ } 
+ 
+
+
+
+input[type="submit"]:hover, .ui-state-vert:hover, #xo-header   li :hover,  #xo-header  .hover  {
+opacity: .40; filter:Alpha(Opacity=40);
+}
+
+input[type="text"], input[type="password"],  input[type=checkbox], input[type=file], textarea{
+border: 1px solid #458B74; 
+background: #fff; 
+color: #120A04;
+outline: none;
+padding : 2px;
+}
+
+
+
+.mattblacktabs{
+overflow: hidden;
+border-bottom: 1px solid black;
+background: url(../img/menu.jpg) repeat-x ;
+width:1000px;
+
+}
+
+.mattblacktabs ul{
+margin: 0;
+padding: 0;
+padding-left: 10px; 
+font: bold 14px Verdana;
+list-style-type: none;
+}
+
+.mattblacktabs li{
+display: inline;
+margin: 0;
+}
+
+.mattblacktabs li a{
+	float: left;
+	display: block;
+	text-decoration: none;
+	margin: 0;
+	padding: 7px 30px;	
+	border-right: 1px solid white; 
+	color: white;
+	background: url(../img/menu1.jpg) repeat-x ; 
+}
+.mattblacktabs li a:visited{
+	color: #FFFFFF;
+}
+.mattblacktabs li a:hover, .mattblacktabs li.selected a{
+	background: #90A884;
+}
+
+
+/* Login Links */
+div#top-links-container{
+   padding-top:1px;
+}
+div#top-links-container div.login_links{
+	background: #978D5F;
+	overflow: hidden;
+	text-align: center;
+	font-size: 0.9em;
+	font-weight: bold;
+	font-family: georgia, Arial, Helvetica, sans-serif;
+	padding: 8px 40px 4px 8px;
+	color: #F8F0EA;
+    
+    
+}
+
+
+div.login_links {
+    cursor: pointer;
+    float: right;
+    padding-top: 2px;
+}
+div.login_links div.the_links{
+    float: left;
+    padding: 0px 0 0 0px;
+}
+div#top-links-container a{
+	color: #F8F0EA;
+	text-decoration: none;
+}
+div#top-links-container a:hover{
+    text-decoration: underline;
+}
+div#top-links-container span.icons{
+    display: block;
+    float: right;
+    margin-left: 5px;
+    margin-top: -1px;
+}
+
+
+
+
